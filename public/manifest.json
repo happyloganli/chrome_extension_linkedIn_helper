@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "LinkedIn Helper",
+    "description": "A Chrome extension that adds features to LinkedIn",
+    "permissions": ["scripting"],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "host_permissions": ["https://www.linkedin.com/*"]
+}
